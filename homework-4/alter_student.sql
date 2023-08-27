@@ -36,4 +36,4 @@ VALUES
 
 -- 7. Удалить все данные из таблицы со сбросом идентификатор в исходное состояние
 
-TRUNCATE TABLE student
+TRUNCATE TABLE student RESTART IDENTITY
